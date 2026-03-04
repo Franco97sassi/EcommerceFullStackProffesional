@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Franc\\Desktop\\EcommerceFullStackProffesional\\FulSpectrum\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{555F71EA-BFA3-E688-10D4-D5E41C838F73}|FulSpectrum.Api\\FulSpectrum.Api.csproj|c:\\users\\franc\\desktop\\ecommercefullstackproffesional\\fulspectrum\\fulspectrum.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{555F71EA-BFA3-E688-10D4-D5E41C838F73}|FulSpectrum.Api\\FulSpectrum.Api.csproj|solutionrelative:fulspectrum.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{555F71EA-BFA3-E688-10D4-D5E41C838F73}|FulSpectrum.Api\\FulSpectrum.Api.csproj|c:\\users\\franc\\desktop\\ecommercefullstackproffesional\\fulspectrum\\fulspectrum.api\\controllers\\pingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{555F71EA-BFA3-E688-10D4-D5E41C838F73}|FulSpectrum.Api\\FulSpectrum.Api.csproj|solutionrelative:fulspectrum.api\\controllers\\pingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{555F71EA-BFA3-E688-10D4-D5E41C838F73}|FulSpectrum.Api\\FulSpectrum.Api.csproj|c:\\users\\franc\\desktop\\ecommercefullstackproffesional\\fulspectrum\\fulspectrum.api\\fulspectrum.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{555F71EA-BFA3-E688-10D4-D5E41C838F73}|FulSpectrum.Api\\FulSpectrum.Api.csproj|solutionrelative:fulspectrum.api\\fulspectrum.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{555F71EA-BFA3-E688-10D4-D5E41C838F73}|FulSpectrum.Api\\FulSpectrum.Api.csproj|c:\\users\\franc\\desktop\\ecommercefullstackproffesional\\fulspectrum\\fulspectrum.api\\logs\\log-20260303.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{555F71EA-BFA3-E688-10D4-D5E41C838F73}|FulSpectrum.Api\\FulSpectrum.Api.csproj|solutionrelative:fulspectrum.api\\logs\\log-20260303.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +26,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Franc\\Desktop\\EcommerceFullStackProffesional\\FulSpectrum\\FulSpectrum.Api\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "FulSpectrum.Api\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Franc\\Desktop\\EcommerceFullStackProffesional\\FulSpectrum\\FulSpectrum.Api\\Properties\\launchSettings.json",
-              "RelativeToolTip": "FulSpectrum.Api\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-03T22:48:51.325Z",
+              "DocumentIndex": 1,
+              "Title": "log-20260303.txt",
+              "DocumentMoniker": "C:\\Users\\Franc\\Desktop\\EcommerceFullStackProffesional\\FulSpectrum\\FulSpectrum.Api\\logs\\log-20260303.txt",
+              "RelativeDocumentMoniker": "FulSpectrum.Api\\logs\\log-20260303.txt",
+              "ToolTip": "C:\\Users\\Franc\\Desktop\\EcommerceFullStackProffesional\\FulSpectrum\\FulSpectrum.Api\\logs\\log-20260303.txt",
+              "RelativeToolTip": "FulSpectrum.Api\\logs\\log-20260303.txt",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-03-03T23:31:53.278Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FulSpectrum.Api",
-              "DocumentMoniker": "C:\\Users\\Franc\\Desktop\\EcommerceFullStackProffesional\\FulSpectrum\\FulSpectrum.Api\\FulSpectrum.Api.csproj",
-              "RelativeDocumentMoniker": "FulSpectrum.Api\\FulSpectrum.Api.csproj",
-              "ToolTip": "C:\\Users\\Franc\\Desktop\\EcommerceFullStackProffesional\\FulSpectrum\\FulSpectrum.Api\\FulSpectrum.Api.csproj",
-              "RelativeToolTip": "FulSpectrum.Api\\FulSpectrum.Api.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-03T22:46:21.462Z",
+              "DocumentIndex": 0,
+              "Title": "PingController.cs",
+              "DocumentMoniker": "C:\\Users\\Franc\\Desktop\\EcommerceFullStackProffesional\\FulSpectrum\\FulSpectrum.Api\\Controllers\\PingController.cs",
+              "RelativeDocumentMoniker": "FulSpectrum.Api\\Controllers\\PingController.cs",
+              "ToolTip": "C:\\Users\\Franc\\Desktop\\EcommerceFullStackProffesional\\FulSpectrum\\FulSpectrum.Api\\Controllers\\PingController.cs",
+              "RelativeToolTip": "FulSpectrum.Api\\Controllers\\PingController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T23:30:39.087Z",
               "EditorCaption": ""
             }
           ]

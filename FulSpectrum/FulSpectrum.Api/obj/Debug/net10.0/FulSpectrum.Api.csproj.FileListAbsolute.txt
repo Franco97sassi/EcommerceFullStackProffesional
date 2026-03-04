@@ -173,3 +173,4 @@ C:\Users\Franc\Desktop\EcommerceFullStackProffesional\FulSpectrum\FulSpectrum.Ap
 C:\Users\Franc\Desktop\EcommerceFullStackProffesional\FulSpectrum\FulSpectrum.Api\obj\Debug\net10.0\FulSpectrum.Api.pdb
 C:\Users\Franc\Desktop\EcommerceFullStackProffesional\FulSpectrum\FulSpectrum.Api\obj\Debug\net10.0\FulSpectrum.Api.genruntimeconfig.cache
 C:\Users\Franc\Desktop\EcommerceFullStackProffesional\FulSpectrum\FulSpectrum.Api\obj\Debug\net10.0\ref\FulSpectrum.Api.dll
+C:\Users\Franc\Desktop\EcommerceFullStackProffesional\FulSpectrum\FulSpectrum.Api\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt

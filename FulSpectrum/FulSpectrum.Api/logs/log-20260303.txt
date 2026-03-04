@@ -133,3 +133,121 @@ System.IO.IOException: Failed to bind to address http://127.0.0.1:5006: address 
    at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
    at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
    at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2026-03-03 20:26:16.040 -03:00 [INF] Now listening on: https://localhost:7193
+2026-03-03 20:26:16.115 -03:00 [INF] Now listening on: http://localhost:5006
+2026-03-03 20:26:16.121 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-03 20:26:16.124 -03:00 [INF] Hosting environment: Development
+2026-03-03 20:26:16.127 -03:00 [INF] Content root path: C:\Users\Franc\Desktop\EcommerceFullStackProffesional\FulSpectrum\FulSpectrum.Api
+2026-03-03 20:26:54.393 -03:00 [INF] HTTP GET /swagger responded 301 in 36.2000 ms
+2026-03-03 20:26:54.568 -03:00 [INF] HTTP GET /swagger/index.html responded 200 in 129.8550 ms
+2026-03-03 20:26:54.627 -03:00 [INF] HTTP GET /swagger/index.js responded 200 in 0.9353 ms
+2026-03-03 20:26:54.652 -03:00 [INF] HTTP GET /swagger/index.css responded 200 in 27.6120 ms
+2026-03-03 20:26:54.670 -03:00 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 51.2350 ms
+2026-03-03 20:26:54.676 -03:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 49.1372 ms
+2026-03-03 20:26:54.678 -03:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 53.6244 ms
+2026-03-03 20:26:57.132 -03:00 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 3.7365 ms
+2026-03-03 20:26:57.491 -03:00 [ERR] Unhandled exception. TraceId=0HNJPFHDE1Q6F:0000000F
+System.MissingMethodException: Method not found: 'System.Collections.Generic.IDictionary`2<System.String,Microsoft.OpenApi.OpenApiMediaType> Microsoft.OpenApi.IOpenApiRequestBody.get_Content()'.
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOpenApiOperationFromMetadataAsync(ApiDescription apiDescription, SchemaRepository schemaRepository, OpenApiDocument document)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOpenApiOperationFromMetadataAsync(ApiDescription apiDescription, SchemaRepository schemaRepository, OpenApiDocument document)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOpenApiOperationFromMetadataAsync(ApiDescription apiDescription, SchemaRepository schemaRepository, OpenApiDocument document)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationAsync(OpenApiDocument document, ApiDescription apiDescription, SchemaRepository schemaRepository, Func`4 parametersGenerator, Func`4 bodyGenerator, Func`3 applyFilters)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationAsync(OpenApiDocument document, ApiDescription apiDescription, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`4 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at FulSpectrum.Api.Middlewares.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\Franc\Desktop\EcommerceFullStackProffesional\FulSpectrum\FulSpectrum.Api\Middlewares\ExceptionHandlingMiddleware.cs:line 20
+2026-03-03 20:26:57.853 -03:00 [ERR] HTTP GET /swagger/v1/swagger.json responded 500 in 758.9279 ms
+2026-03-03 20:27:12.491 -03:00 [INF] HTTP GET /swagger responded 301 in 0.2210 ms
+2026-03-03 20:27:12.522 -03:00 [INF] HTTP GET /swagger/index.html responded 200 in 0.7579 ms
+2026-03-03 20:27:12.568 -03:00 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 0.5147 ms
+2026-03-03 20:27:12.569 -03:00 [INF] HTTP GET /swagger/index.css responded 200 in 0.2172 ms
+2026-03-03 20:27:12.571 -03:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 1.0457 ms
+2026-03-03 20:27:12.572 -03:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 1.9071 ms
+2026-03-03 20:27:12.585 -03:00 [INF] HTTP GET /swagger/index.js responded 200 in 0.5753 ms
+2026-03-03 20:27:14.258 -03:00 [ERR] Unhandled exception. TraceId=0HNJPFHDE1Q6H:00000003
+System.MissingMethodException: Method not found: 'System.Collections.Generic.IDictionary`2<System.String,Microsoft.OpenApi.OpenApiMediaType> Microsoft.OpenApi.IOpenApiRequestBody.get_Content()'.
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOpenApiOperationFromMetadataAsync(ApiDescription apiDescription, SchemaRepository schemaRepository, OpenApiDocument document)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOpenApiOperationFromMetadataAsync(ApiDescription apiDescription, SchemaRepository schemaRepository, OpenApiDocument document)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOpenApiOperationFromMetadataAsync(ApiDescription apiDescription, SchemaRepository schemaRepository, OpenApiDocument document)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationAsync(OpenApiDocument document, ApiDescription apiDescription, SchemaRepository schemaRepository, Func`4 parametersGenerator, Func`4 bodyGenerator, Func`3 applyFilters)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationAsync(OpenApiDocument document, ApiDescription apiDescription, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`4 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at FulSpectrum.Api.Middlewares.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\Franc\Desktop\EcommerceFullStackProffesional\FulSpectrum\FulSpectrum.Api\Middlewares\ExceptionHandlingMiddleware.cs:line 20
+2026-03-03 20:27:14.274 -03:00 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 0.4164 ms
+2026-03-03 20:27:14.287 -03:00 [ERR] HTTP GET /swagger/v1/swagger.json responded 500 in 31.2693 ms
+2026-03-03 20:27:55.576 -03:00 [INF] Application is shutting down...
+2026-03-03 20:30:02.966 -03:00 [INF] Now listening on: https://localhost:7193
+2026-03-03 20:30:03.012 -03:00 [INF] Now listening on: http://localhost:5006
+2026-03-03 20:30:03.019 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-03 20:30:03.021 -03:00 [INF] Hosting environment: Development
+2026-03-03 20:30:03.023 -03:00 [INF] Content root path: C:\Users\Franc\Desktop\EcommerceFullStackProffesional\FulSpectrum\FulSpectrum.Api
+2026-03-03 20:30:07.423 -03:00 [INF] HTTP GET /swagger/index.html responded 304 in 146.0256 ms
+2026-03-03 20:30:07.525 -03:00 [INF] HTTP GET /swagger/index.js responded 304 in 2.5686 ms
+2026-03-03 20:30:07.554 -03:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 304 in 35.5040 ms
+2026-03-03 20:30:07.554 -03:00 [INF] HTTP GET /swagger/swagger-ui.css responded 304 in 41.0539 ms
+2026-03-03 20:30:07.554 -03:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 304 in 36.2310 ms
+2026-03-03 20:30:07.554 -03:00 [INF] HTTP GET /swagger/index.css responded 304 in 37.5245 ms
+2026-03-03 20:30:10.288 -03:00 [INF] HTTP GET /swagger/favicon-32x32.png responded 304 in 1.5791 ms
+2026-03-03 20:30:10.376 -03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 112.1485 ms
+2026-03-03 20:30:16.513 -03:00 [INF] HTTP GET /api/v1/ping responded 307 in 7.9611 ms
+2026-03-03 20:30:16.762 -03:00 [INF] HTTP GET /api/v1/ping responded 200 in 92.4049 ms
+2026-03-03 20:30:54.871 -03:00 [INF] HTTP GET /swagger/index.html responded 304 in 0.7385 ms
+2026-03-03 20:30:54.924 -03:00 [INF] HTTP GET /swagger/swagger-ui.css responded 304 in 0.3218 ms
+2026-03-03 20:30:54.926 -03:00 [INF] HTTP GET /swagger/index.css responded 304 in 0.1227 ms
+2026-03-03 20:30:54.927 -03:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 304 in 0.0956 ms
+2026-03-03 20:30:54.927 -03:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 304 in 0.0778 ms
+2026-03-03 20:30:54.927 -03:00 [INF] HTTP GET /swagger/index.js responded 304 in 0.2423 ms
+2026-03-03 20:30:57.591 -03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 4.6595 ms
+2026-03-03 20:31:01.534 -03:00 [INF] HTTP GET /api/v1/ping responded 200 in 2.2320 ms
+2026-03-03 20:31:50.071 -03:00 [INF] Application is shutting down...
+2026-03-03 21:28:45.219 -03:00 [INF] Now listening on: https://localhost:7193
+2026-03-03 21:28:45.287 -03:00 [INF] Now listening on: http://localhost:5006
+2026-03-03 21:28:45.429 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-03 21:28:45.432 -03:00 [INF] Hosting environment: Development
+2026-03-03 21:28:45.438 -03:00 [INF] Content root path: C:\Users\Franc\Desktop\EcommerceFullStackProffesional\FulSpectrum\FulSpectrum.Api
+2026-03-03 21:28:52.364 -03:00 [INF] HTTP GET /swagger responded 301 in 138.8853 ms
+2026-03-03 21:28:52.765 -03:00 [INF] HTTP GET /health/live responded 200 in 560.3511 ms
+2026-03-03 21:28:53.151 -03:00 [INF] HTTP GET /swagger/index.html responded 200 in 591.0636 ms
+2026-03-03 21:28:53.362 -03:00 [INF] HTTP GET /swagger/index.css responded 200 in 133.8786 ms
+2026-03-03 21:28:53.460 -03:00 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 240.8259 ms
+2026-03-03 21:28:53.461 -03:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 221.3686 ms
+2026-03-03 21:28:53.591 -03:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 30.3329 ms
+2026-03-03 21:28:53.628 -03:00 [INF] HTTP GET /swagger/index.js responded 200 in 1.1842 ms
+2026-03-03 21:28:55.365 -03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 16.6932 ms
+2026-03-03 21:28:55.533 -03:00 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 3.4465 ms
+2026-03-03 21:28:56.522 -03:00 [INF] HTTP GET /favicon.ico responded 404 in 2.4216 ms
+2026-03-03 21:29:12.786 -03:00 [INF] HTTP GET /health/ready responded 200 in 4.2975 ms
+2026-03-03 21:29:14.749 -03:00 [INF] HTTP GET /health/ready responded 200 in 0.5060 ms
+2026-03-03 21:29:15.720 -03:00 [INF] HTTP GET /health/ready responded 200 in 0.4452 ms
+2026-03-03 21:29:16.481 -03:00 [INF] HTTP GET /health/ready responded 200 in 0.4417 ms
+2026-03-03 21:30:21.470 -03:00 [INF] HTTP GET /swagger/index.html responded 304 in 19.5638 ms
+2026-03-03 21:30:21.602 -03:00 [INF] HTTP GET /swagger/swagger-ui.css responded 304 in 2.2811 ms
+2026-03-03 21:30:21.670 -03:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 304 in 0.2589 ms
+2026-03-03 21:30:21.602 -03:00 [INF] HTTP GET /swagger/index.css responded 304 in 0.2702 ms
+2026-03-03 21:30:21.669 -03:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 304 in 0.1977 ms
+2026-03-03 21:30:21.711 -03:00 [INF] HTTP GET /swagger/index.js responded 304 in 1.8444 ms
+2026-03-03 21:30:26.646 -03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 59.5945 ms
+2026-03-03 21:35:43.366 -03:00 [INF] HTTP GET /api/v1/ping responded 200 in 418.4255 ms
+2026-03-03 21:35:43.373 -03:00 [INF] HTTP GET /api/v1/ping responded 200 in 3.0182 ms
+2026-03-03 21:36:02.560 -03:00 [INF] HTTP GET /api/v1/ping responded 200 in 3.6935 ms
+2026-03-03 21:36:02.575 -03:00 [INF] HTTP GET /api/v1/ping responded 200 in 1.4191 ms
+2026-03-03 21:36:05.059 -03:00 [INF] HTTP GET /api/v1/ping responded 200 in 1.2916 ms
+2026-03-03 21:36:05.063 -03:00 [INF] HTTP GET /api/v1/ping responded 200 in 0.5743 ms
+2026-03-03 21:38:48.612 -03:00 [INF] HTTP GET /api/v1/ping responded 200 in 61.7589 ms
+2026-03-03 21:41:33.037 -03:00 [INF] HTTP GET /swagger/index.html responded 304 in 69.3792 ms
+2026-03-03 21:41:33.415 -03:00 [INF] HTTP GET /swagger/index.js responded 304 in 38.5195 ms
+2026-03-03 21:41:33.416 -03:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 304 in 39.2115 ms
+2026-03-03 21:41:33.416 -03:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 304 in 40.8987 ms
+2026-03-03 21:41:33.416 -03:00 [INF] HTTP GET /swagger/swagger-ui.css responded 304 in 75.3757 ms
+2026-03-03 21:41:33.416 -03:00 [INF] HTTP GET /swagger/index.css responded 304 in 76.1177 ms
+2026-03-03 21:41:45.497 -03:00 [INF] HTTP GET /swagger/favicon-32x32.png responded 304 in 0.3364 ms
+2026-03-03 21:41:45.533 -03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 140.8397 ms

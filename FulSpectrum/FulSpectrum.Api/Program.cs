@@ -12,9 +12,19 @@ var builder = WebApplication.CreateBuilder(args);
 // --------------------
 // Serilog (host-level)
 // --------------------
+//Log.Logger = new LoggerConfiguration()
+//    .MinimumLevel.Information()
+//    .MinimumLevel.Override("Microsoft", LogEventLevel.Warning)
+//    .Enrich.FromLogContext()
+//    .Enrich.WithEnvironmentName()
+//    .Enrich.WithThreadId()
+//    .WriteTo.Console()
+//    .WriteTo.File("logs/log-.txt", rollingInterval: RollingInterval.Day)
+//    .CreateLogger();
 Log.Logger = new LoggerConfiguration()
     .MinimumLevel.Information()
     .MinimumLevel.Override("Microsoft", LogEventLevel.Warning)
+    .MinimumLevel.Override("Microsoft.Hosting.Lifetime", LogEventLevel.Information) // <-- clave
     .Enrich.FromLogContext()
     .Enrich.WithEnvironmentName()
     .Enrich.WithThreadId()
